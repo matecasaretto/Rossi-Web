@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #355C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+}
+.nico{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+h2{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+.fotocarnet {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+.data{
+    align-items: start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.nombrebandera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Navbar*/
+nav{
+    display: flex;
+    flex-direction: row;    
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+
+.image {
+    padding-top: 20px;
+    height: 150px;
+    width: 100px;
+}
+
+.details {
+    flex-direction: row;
+    justify-content: space-around;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.banderauruguay{
+    margin-right: 70px;
+    height: 20px;
+}
+.defensor-title{
+    text-align: center;
+}
+.defensor{
+    height: 80px;
+    width: 80px;
+}
+.defensor-text{
+    padding-left: 100px;
+}
+.rentistas-text{
+    padding-left: 100px;
+}
+.rentistasu-text{
+    padding-left: 100px;
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+}
+.rentistas{
+    height: 80px;
+    width: 80px;
+}
+.conta-iner{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.video{
+    height: 500px;
+    margin: 20px;
+}
+@media (max-width: 890px) {
+    .video{
+        height: 400px;
+    }
+  }
+  @media (max-width: 700px) {
+    .video{
+        height: 300px;
+    }
+  }
+  @media (max-width: 560px) {
+    .video{
+        height: 200px;
+    }
+  }
+
+.carrrousel{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 788px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #C06C84;
+    display: flex;
+    justify-content: center;
+}
+
+.carta{
+    height: 50px;
+}
