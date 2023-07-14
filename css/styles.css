@@ -3,11 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background: #355C7D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.html{
     height: 100%;
+}
+body{
+    font-family: 'Oswald';
+    background: rgb(82,69,190);
+    height: 100vh;
+    overflow-x: hidden;
+}
+.socialmedia{
+    height: 30px;
+    margin: 3px;
+}
+.rossi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    justify-content: center;
 }
 .nico{
     display: flex;
@@ -25,6 +41,14 @@ p{
     width: 150px;
     height: 150px;
     margin: 20px;
+}
+hr{
+    width:370px;
+    height: 2px;
+    background-color: black;
+}
+.description p{
+    width: 100%;
 }
 .data{
     align-items: start;
@@ -48,66 +72,20 @@ nav{
     justify-content: space-around;
     padding-left: 20px;
 }
-
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-family: Arial, sans-serif;
-    justify-content: space-evenly;
-    align-content: center;
-    flex-wrap: wrap;
+.escudos {
+    height: 70px;
 }
 
 .image {
-    padding-top: 20px;
     height: 150px;
     width: 100px;
 }
-
-.details {
-    flex-direction: row;
-    justify-content: space-around;
-}
-.info{
-    margin: 10px;
+.nicolasfotos{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-.col{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: row;
 }
 .banderauruguay{
     height: 20px;
-}
-.defensor-title{
-    text-align: center;
-}
-.defensor{
-    height: 80px;
-    width: 80px;
-}
-.defensor-text{
-    padding-left: 100px;
-}
-.rentistas-text{
-    padding-left: 100px;
-}
-.rentistasu-text{
-    padding-left: 100px;
-}
-.grid-item{
-    display: flex;
-    flex-direction: column;
-}
-.rentistas{
-    height: 80px;
-    width: 80px;
 }
 .conta-iner{
     padding-top: 20px;
@@ -115,12 +93,36 @@ nav{
     justify-content: center;
 }
 .video{
+    padding-bottom: 40px;
     height: 500px;
-    margin: 20px;
+    margin-top: 20px;
 }
-@media (max-width: 890px) {
+@media (max-width: 900px) {
     .video{
-        height: 400px;
+        height: 300px;
+    }
+}
+@media (max-width: 816) {
+    #carouselExampleAutoplaying{
+        height: 300px;
+    }
+} 
+@media (max-width: 890px) {
+    body{
+        overflow-x: hidden;
+    }
+  }
+@media (max-width: 768px) {
+    .description h3, hr{
+        text-align: center;
+        align-items: center;
+    }
+    hr{
+        width: 500px;
+    }
+    .cancha{
+        display: flex;
+        justify-content: center;
     }
   }
   @media (max-width: 700px) {
@@ -148,6 +150,7 @@ nav{
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 .carousel{
     display: flex;
     justify-content: center;
@@ -161,16 +164,263 @@ nav{
     justify-content: start;
     flex-direction: column;
 }
-
-/*FOOTER*/
-footer{
-    background: #355C7D; 
-    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  
-    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
-    display: flex;
+.campeonatouruguayo{
+    height: 40px;
+}
+.table{
+    padding: 0;
+    align-items: center;
+    font-style: italic;
+    background-image: linear-gradient(180deg, #4f3f66 0, #3b2e5f 25%, #1f1f59 50%, #001253 75%, #00004e 100%);    text-align: center;
+    width: 100%;
+    border: 1px solid black;
+} 
+td{
+    text-align: center;
+    align-items: center;
     justify-content: center;
 }
+th, td{
+    color: aliceblue;
+    align-items: center;
+    border: 1px solid black;
+}
+.defensor-table{
+    height: 50px;
+    padding: 2px;
+}
+.container-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table-table{
+    align-items: center;
+    text-align: center;
+    border-collapse: separate;
+    background-image: linear-gradient(180deg, #4f3f66 0, #3b2e5f 25%, #1f1f59 50%, #001253 75%, #00004e 100%);    text-align: center;
+    width: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.th-defensor{
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.container-table-father{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.temporada{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.copadeoro{
+    height: 15px;
+}
+  @media (max-width: 600px) {
+    .table{
+        font-size: 10px;
+    }
+    .copadeoro{
+        height: 10px;
+    }
+    .table-table{
+        font-size: 10px;
+    }
+  }
+  @media (max-width: 450px) {
+    .table{
+        font-size: 7px;
+    }
+  }
+  @media (max-width: 500px) {
+    hr{
+        width: 0px;
+        justify-content: center;
+        display: flex;
+    }
+  }
+.campeonatouruguayo-segunda{
+    height: 25px;
+}
+/*FOOTER*/
 
 .carta{
     height: 50px;
 }
+.cancha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.palmares{
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.foto{
+    height: 150px;
+}
+#carouselExampleFade{
+    background-image: linear-gradient(180deg, #4f3f66 0, #3b2e5f 25%, #1f1f59 50%, #001253 75%, #00004e 100%);    
+    text-align: center;
+    height: 150px;
+}
+.carousel-fade .carousel-item {
+    transition-duration: 1.5s;
+  }
+  @media (max-width: 800px) {
+    #carouselExampleFade{
+        width: 400px;
+    }
+  }
+  @media (max-width: 400px) {
+     #carouselExampleFade{
+        width: 300px;
+    }
+  }
+  .slide{
+    height: 300px;
+
+  }
+  .slide img{
+    height: 100px;
+  }
+  .palmaresdiv h3{
+    color: aliceblue;
+    background-image: linear-gradient(180deg, #4f3f66 0, #3b2e5f 25%, #1f1f59 50%, #001253 75%, #00004e 100%);
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hola{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.carousel, .slide{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+.carousel, .slide img{
+    height: 400px;
+    width: 700px;
+}
+
+@media (max-width: 700px) {
+    .carousel, .slide img{
+    height: 200px;
+    width: 400px;
+    }
+}
+
+/*Foooter*/
+/* Estilos generales del footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f59;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos de la información de contacto */
+.phone, .email{
+  color: #777;
+}
+.contact-info {
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.phone-email p {
+  margin: 5px 0;
+  color: #777;
+}
+
+/* Estilos de la línea divisoria */
+.lineafooter {
+  width: 100%;
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* Estilos de la ubicación */
+.location {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+/* Estilos del texto de derechos de autor */
+.copyright {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Estilos de los logotipos de redes sociales */
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Media queries para ajustar el diseño en resoluciones más pequeñas */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .social-media a {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .phone-email p,
+  .location p,
+  .copyright p {
+    font-size: 14px;
+  }
+}
+
+

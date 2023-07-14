@@ -1,106 +1,381 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>      
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Nicolas Rossi</title>
-</head>
-<body>
-    <nav>
-        <img class="image" src="./img/logo.png" alt="Logo nicolas rossi">
-    </nav>
-    <div class="nico">
-        <img class="fotocarnet" src="./img/nicolasrossi.jpeg" alt="">
-      <div class="data">
-        <img class="banderauruguay" src="./img/banderauruguay.png" alt="">
-        <div class="nombrebandera">
-        <h2>Nicolás <br> Rossi</h2>
+  </head>
+  <body>
+      <nav>
+          <img class="image" src="./img/logo.png" alt="Logo nicolas rossi">
+      </nav>
+      <div data-aos="fade-right" class="nico">
+        <div class="rossi">
+          <img class="fotocarnet" src="./img/nicolasrossi.jpeg" alt="">
+          <div class="redes">
+            <a href="https://www.instagram.com/p/CqNrJCwMBs9xed0CUy1N4G6q_9qjXZjlO6CSiU0/?img_index=1"><img class="socialmedia" src="./img/instagram.png" alt=""></a>
+            <a href="https://twitter.com/Nrossi1998"><img class="socialmedia" src="./img/gorjeo (1).png" alt=""></a>
+          </div>
         </div>
-        <p>Goalkeeper | 25 (16/05/1998) |  1.88 mts</p>
+        <div class="data">
+          <img class="banderauruguay" src="./img/banderauruguay.png" alt="">
+          <div class="nombrebandera">
+          <h2>Nicolás <br> Rossi</h2>
+          </div>
+          <p>Goalkeeper | 25 (16/05/1998) |  1.89 mts</p>
+        </div>
       </div>
-    </div>
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="info">
-            <img class="defensor animate__animated animate__backInLeft" src="./img/defensorsporting.png" alt="">
-            <p class="defensor-title">Defensor <br> Sporting</p>
-            </div>
-            <div class="competiciones">
-            <p class="defensor-text">Primera división <br> 07/02/2022</p>
-            <p class="defensor-text">Copa Sudamericana 2022</p>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-sm-12">
+            <div class="cancha">
+              <img src="./img/Screen_Shot_2023-07-08_at_23.29.42-removebg-preview.png" alt="">
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="info">
-            <img class="rentistas animate__animated animate__backInLeft" src="./img/rentistas.png" alt="">
-            <p>Rentistas</p>
-            </div>
-            <div class="competiciones">
-            <p class="rentistas-text">Primera división <br> 01/01/2022</p>
-            <p class="rentistas-text">Copa Libertadores 2021</p>
-            </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="description">
+              <h3>DESCRIPCIÓN TÉCNICO / TÁCTICA</h3>
+              <hr>
+              <p>El golero en cuestión es un jugador destacado en su posición debido a sus habilidades técnicas y tácticas específicas. Destaca por su capacidad para realizar saques precisos con los pies, lo que le permite iniciar rápidamente el juego desde la portería y participar en la construcción de jugadas desde atrás. 
+              <br> Además, siendo diestro, su dominio con el pie derecho le brinda confianza y precisión al despejar el balón. 
+              <br> Sin embargo, donde realmente se destaca es en la habilidad de atajar penales, mostrando una notable capacidad para anticiparse a los lanzamientos y realizar las intervenciones necesarias para evitar que el balón entre en la portería.</p>
+            </div>          
           </div>
         </div>
-        <div class="row">
-            <div class="col">
-              <div class="info">
-              <img class="rentistas animate__animated animate__backInLeft" src="./img/rentistas.png" alt="">
-              <p class="defensor-title">Rentistas <br> U19</p>
-              </div>
-              <div class="competiciones">
-              <p class="rentistasu-text">Segunda división <br> 01/07/2015</p>
-              <p class="rentistasu-text">Primera división 2019</p>
-            </div>
-            </div>
-        </div>
-    </div>
-    <div class="conta-iner">
-      <video class="video" controls autoplay muted src="./video/videonicolas.mp4"></video>
-    </div>
-    <div class="carrrousel">
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      </div>
+      <div data-aos="fade-right" class="conta-iner">
+        <video class="video" controls autoplay muted src="./video/videonicolas.mp4"></video>
+      </div>
+
+
+    <section class="nicolasfotos">
+      <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <img src="./img/atajada.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
             <img src="./img/aplausos.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./img/atajada.png" class="d-block w-100" alt="...">
+            <img src="./img/atajadanicolasrossi.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
             <img src="./img/festejonicolasrossi.jpeg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./img/penal.webp" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/puños.png" class="d-block w-100" alt="...">
+            <img src="./img/puños.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
             <img src="./img/nicodefensor.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </section>
+
+  <section data-aos="fade-right" class="container-table-father" id="deferentable">
+    <div class="row">
+      <div class="col col-xl-6 col-md-12 col-sm-12">
+        <div class="container-table">
+          <table class="table-table">
+            <tr>
+              <th class="th-defensor">
+              <p>21/22</p>
+              <img class="defensor-table" src="./img/defensorsporting.png" alt="">
+              </th>
+            </tr>
+          </table>
+          <table class="table">
+            <tr>
+              <th>Competición</th>
+              <th>partidos</th>
+              <th>amarillas</th>
+              <th>rojas</th>
+              <th>goles</th>
+              <th>imbatido</th>
+              <th>minutos</th>
+            </tr>
+            <tr>
+              <td>
+                <img class="campeonatouruguayo" src="./img/campeonatouruguayo.webp" alt=""> <br>
+                <p>Clausura</p>
+              </td>
+              <td>14</td>
+              <td>4</td>
+              <td>-</td>
+              <td>12</td>
+              <td>6 </td>
+              <td>1.260'</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="campeonatouruguayo" src="./img/campeonatouruguayo.webp" alt="">
+                <p>Apertura</p>
+              </td>
+              <td>12</td>
+              <td>3</td>
+              <td>-</td>
+              <td>10</td>
+              <td>4</td>
+              <td>1.080'</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="campeonatouruguayo" src="./img/campeonatouruguayo.webp" alt="">
+                <p>Intermedio</p>
+              </td>
+              <td>7</td>
+              <td>-</td>
+              <td>-</td>
+              <td>8</td>
+              <td>1</td>
+              <td>630'</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="campeonatouruguayo" src="./img/copaauf.png" alt="">
+                <p>Copa AUF
+                  <img class="copadeoro" src="./img/copadeoro.png" alt="">
+                </p>
+              </td>
+              <td>1</td>
+              <td>1</td>
+              <td>-</td>
+              <td>1</td>
+              <td>-</td>
+              <td>90'</td>
+            </tr>
+          </table>
+        </div>
     </div>
+
+
+
+
+
+
+
+      <div class="col col-xl-6 col-md-12 col-sm-12">
+        <div class="container-table">
+          <table class="table-table">
+            <tr>
+              <th class="th-defensor">
+              <p>20/21</p>
+              <img class="defensor-table" src="./img/rentistas.png" alt="">
+              </th>
+            </tr>
+          </table>
+          <table class="table">
+            <tr>
+              <th>Competición</th>
+              <th>partidos</th>
+              <th>amarillas</th>
+              <th>rojas</th>
+              <th>goles</th>
+              <th>imbatido</th>
+              <th>minutos</th>
+            </tr>
+            <tr>
+              <td>
+                <img class="campeonatouruguayo" src="./img/campeonatouruguayo.webp" alt=""> <br>
+                <p>Clausura</p>
+              </td>
+              <td>10</td>
+              <td>2</td>
+              <td>-</td>
+              <td>13</td>
+              <td>2</td>
+              <td>880'</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="campeonatouruguayo" src="./img/campeonatouruguayo.webp" alt="">
+                <p>Apertura
+                  <img class="copadeoro" src="./img/copadeoro.png" alt="">
+                </p>
+              </td>
+              <td>14</td>
+              <td>3</td>
+              <td>-</td>
+              <td>20</td>
+              <td>3</td>
+              <td>1.260'</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="campeonatouruguayo" src="./img/campeonatouruguayo.webp" alt="">
+                <p>Intermedio</p>
+              </td>
+              <td colspan="6">NO DISPUTADO</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="campeonatouruguayo" src="./img/copalibertadores.png" alt="">
+                <p>Libertadores</p>
+              </td>
+              <td>6</td>
+              <td>-</td>
+              <td>-</td>
+              <td>9</td>
+              <td>1</td>
+              <td>540'</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="rentistastemporada" data-aos="fade-left" class="temporada">
+    <div class="container-table">
+    <table class="table-table">
+      <tr>
+        <th class="th-defensor">
+        <p>19/20</p>
+        <img class="defensor-table" src="./img/rentistas.png" alt="">
+        </th>
+      </tr>
+    </table>
+    <table class="table">
+      <tr>
+        <th>Competición</th>
+        <th>partidos</th>
+        <th>amarillas</th>
+        <th>rojas</th>
+        <th>goles</th>
+        <th>imbatido</th>
+        <th>minutos</th>
+      </tr>
+      <tr>
+        <td>
+          <img class="campeonatouruguayo" src="./img/campeonatouruguayo.webp" alt=""> <br>
+          <p>Clausura</p>
+        </td>
+        <td>4</td>
+        <td>-</td>
+        <td>-</td>
+        <td>3</td>
+        <td>2</td>
+        <td>328'</td>
+      </tr>
+      <tr>
+        <td>
+          <img class="campeonatouruguayo" src="./img/campeonatouruguayo.webp" alt="">
+          <p>Apertura</p>
+        </td>
+        <td>2</td>
+        <td>-</td>
+        <td>-</td>
+        <td>1</td>
+        <td>1</td>
+        <td>96'</td>
+      </tr>
+      <tr>
+        <td>
+          <img class="campeonatouruguayo" src="./img/campeonatouruguayo.webp" alt="">
+          <p>Intermedio</p>
+        </td>
+        <td>3</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>3</td>
+        <td>270'</td>
+      </tr>
+      <tr>
+        <td>
+          <img class="campeonatouruguayo-segunda" src="./img/segundadivision.png" alt="">
+          <p>Playoffs <br> segunda división</p>
+        </td>
+        <td>1</td>
+        <td>-</td>
+        <td>-</td>
+        <td>1</td>
+        <td>-</td>
+        <td>120'</td>
+      </tr>
+    </div>
+    </table>
+  </section>
+
+    <section data-aos="fade-right" class="palmares">
+      <div class="palmaresdiv">
+        <h3 class="palmarestitulo">Palmares</h3>
+      </div>
+      <div id="carouselExampleFade" class="carousel carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <img class="foto" src="./img/apertura.png" class="d-block" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img class="foto" src="./img/copauf.png" class="d-block" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img title="hola" class="foto" src="./img/bridgestone.png" class="d-block" alt="...">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
     <footer>
-      <img class="carta" src="./img/carta.png" alt="">
+      <div class="footer-container">
+        <div class="contact-info">
+          <p class="phone">+598 91 889 571</p>
+          <p class="email">m.casaretto52@gmail.com</p>
+        </div>
+        <hr class="lineafooter">
+        <p class="location">Montevideo, Uruguay</p>
+        <p class="copyright">
+          &copy; 2023 Mateo Casaretto. Todos los derechos reservados.
+        </p>
+        <div class="social-media">
+          <a href="https://www.instagram.com/mate_casaretto/" target="_blank">
+            <img src="./img/instagram.png" alt="Instagram">
+          </a>
+          <a href="https://twitter.com/m_casaretto" target="_blank">
+            <img src="./img/gorjeo (1).png" alt="Twitter">
+          </a>
+          <a href="https://www.linkedin.com/in/tu_perfil_de_linkedin" target="_blank">
+            <img src="./img/linkedin.png" alt="LinkedIn">
+          </a>
+        </div>
+      </div>
     </footer>
-    <script src="./js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    
+
+
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="./js/bootstrap.bundle.min.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  </body>
+  </html>
